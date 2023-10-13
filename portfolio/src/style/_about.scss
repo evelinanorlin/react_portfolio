@@ -1,0 +1,45 @@
+.about{
+  padding-top: 60px;
+  text-align: center;
+  .gradient-square{
+    height: 450px;
+    width: 300px;
+    background: linear-gradient(
+        45deg,
+        #FEAC5E 20%,
+        #C779D0 30%,
+        #4BC0C8 70%,
+        #FEAC5E 80%
+    );
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  img{
+    display: block;
+    width: 280px;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 65px;
+  }
+  h4{
+    margin-bottom: 60px;
+  }
+  h2{
+    margin-top: 90px;
+    margin-bottom: 30px;
+  }
+}
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}

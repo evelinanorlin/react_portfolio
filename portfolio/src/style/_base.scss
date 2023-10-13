@@ -14,6 +14,9 @@ h4, h3, h2, p{
 a{
   text-decoration: underline;
   color: $light-bg;
+  &:hover{
+    cursor: pointer;
+  }
 }
 
 .thin{
@@ -26,6 +29,14 @@ a{
 
 .italic{
   font-style: italic;
+}
+
+.normal{
+  font-style: normal;
+}
+
+.ingress{
+  font-size: 1.2rem;
 }
 
 .container{
