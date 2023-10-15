@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Portfolio } from "./Portfolio";
+import Footer from "./Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Link to='/contact' className='thin'>Let´s get in touch</Link>
         , to see if we can work together ✨</p>
       </section>
+      <Footer />
     </>
   )
 }

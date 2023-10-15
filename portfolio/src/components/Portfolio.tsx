@@ -4,12 +4,22 @@ export const Portfolio = () => {
   return (
     <>
       <section className='portfolio container' id='portfolio'>
-        <img src={placeholder} />
-        <p className='italic'>React, SASS, node.js</p>
-        <img src={placeholder} />
-        <p className='italic'>React, SASS, node.js</p>
-        <img src={placeholder} />
-        <p className='italic'>React, SASS, node.js</p>
+        <div>
+          <img src={placeholder} />
+          <p className='italic'>React, SASS, node.js</p>
+        </div>
+        <div>
+          <img src={placeholder} />
+          <p className='italic'>React, SASS, node.js</p>
+        </div>
+        <div>
+          <img src={placeholder} />
+          <p className='italic'>React, SASS, node.js</p>
+        </div>
+        <div>
+          <img src={placeholder} />
+          <p className='italic'>React, SASS, node.js</p>
+        </div>
       </section>
     </>
   )

@@ -30,3 +30,24 @@
     bottom: 120px;
   }
 }
+
+@media screen and (min-width : 768px){
+  .contact{
+    height: 100%;
+    .contact-info{
+      width: 400px;
+      position: absolute;
+      top: 30%;
+      left: 60px;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    img{
+      height: 90vh;
+      width: auto;
+      right:-100px;
+      bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+ }

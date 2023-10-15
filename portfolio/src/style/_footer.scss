@@ -1,0 +1,22 @@
+footer{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 90px;
+  .footer-flex{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+      height: 70px;
+      width: auto;
+    }
+    a{
+      font-size: 1.5rem;
+      margin-right: 15px;
+    }
+  }
+  p{
+    text-align: center;
+  }
+}
