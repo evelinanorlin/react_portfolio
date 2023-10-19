@@ -33,6 +33,7 @@
     position: relative;
     right: 70px;
     bottom: 150px;
+    z-index: -1;
   }
 }
 
@@ -50,7 +51,7 @@
     img{
       height: 90vh;
       width: auto;
-      right:-100px;
+      right:-50px;
       bottom: 0;
       margin-bottom: 0;
     }

@@ -43,9 +43,16 @@
 @media screen and (min-width : 768px){
  .about{
   .flex{
-    div{
-      img{
-        // top: 910px;
+    display: flex;
+    margin-bottom: 90px;
+    .ingress{
+      margin-top: 100px;
+      width: 80%;
+    }
+    .image-block{
+      margin-top: 0;
+      .gradient-square{
+        margin-top: 0;
       }
     }
   }

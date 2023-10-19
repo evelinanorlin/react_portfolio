@@ -9,10 +9,16 @@ export default function About() {
       <section className='about container'>
         <div className='flex'>
           <div>
-            <h4 className='italic ingress'>Hey there! 👋 
-            I'm an adventure enthusiast with a creative spirit, 
-            always excited about crafting amazing digital experiences. 
-            Well-structured code and eye-catching, user-friendly design are my jam!</h4>
+              <h4 className='italic ingress'>Hey there! 👋 
+              I'm an adventure enthusiast with a creative spirit, 
+              always excited about crafting amazing digital experiences. 
+              Well-structured code and eye-catching, user-friendly design are my jam!</h4>
+              </div>
+              <div className='image-block'>
+                <div className='gradient-square'></div>
+                <img src={evelina} alt='Evelina Norlin' />
+              </div>
+            </div>
 
             <p>Currently, I'm on a journey to level up my skills as a front-end developer 
               at Medieinstitutet. Alongside, I'm diving into graphic design and UX courses 
@@ -34,12 +40,6 @@ export default function About() {
             Looking forward to creating something amazing together.</p>
 
             <p>Want the formal version? <a href={cv} className='thin' target='_blank'>Take a look at my CV</a></p>
-          </div>
-          <div>
-              <div className='gradient-square'></div>
-              <img src={evelina} alt='Evelina Norlin' />
-          </div>
-        </div>
         <div className='facts'>
           <h2>A few random facts about me  🪩 </h2>
           <p className='fact-list'>
