@@ -1,7 +1,6 @@
 .about{
-  width: 70%;
+  width: 80%;
   padding-top: 60px;
-  text-align: center;
   .gradient-square{
     height: 450px;
     width: 300px;
@@ -23,11 +22,11 @@
     width: 280px;
     height: auto;
     margin: 0 auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 1192px;
+    position: relative;
+    bottom: 496px;
+    left: 0px;
+    margin-bottom: -496px;
+  
   }
   h4{
     margin-bottom: 60px;
@@ -36,6 +35,9 @@
     margin-top: 90px;
     margin-bottom: 30px;
   }
+  .facts{
+    text-align: center;
+  }
 }
 
 @media screen and (min-width : 768px){
@@ -43,7 +45,7 @@
   .flex{
     div{
       img{
-        top: 910px;
+        // top: 910px;
       }
     }
   }
