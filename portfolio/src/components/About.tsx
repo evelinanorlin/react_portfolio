@@ -19,7 +19,7 @@ export default function About() {
                 <img src={evelina} alt='Evelina Norlin' />
               </div>
             </div>
-
+            <div className='about-text'>
             <p>Currently, I'm on a journey to level up my skills as a front-end developer 
               at Medieinstitutet. Alongside, I'm diving into graphic design and UX courses 
               to finesse my design chops and create kick-ass user interfaces. 
@@ -40,6 +40,8 @@ export default function About() {
             Looking forward to creating something amazing together.</p>
 
             <p>Want the formal version? <a href={cv} className='thin' target='_blank'>Take a look at my CV</a></p>
+
+            </div>
         <div className='facts'>
           <h2>A few random facts about me  🪩 </h2>
           <p className='fact-list'>

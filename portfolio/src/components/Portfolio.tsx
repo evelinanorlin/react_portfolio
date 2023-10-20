@@ -4,7 +4,22 @@ export const Portfolio = () => {
   const itemsHtml = portfolioItems.map((item, index) => {
     return (
     <div className='portfolio-item' key={index}>
-      <img src={item.image} alt='portfolio item' />
+      <div className='img-container'>
+        <a href={item.link} target='_blank' className='img-link'><img src={item.image} alt='portfolio item' /></a>
+        <div className='img-overlay'>
+          <div className='img-text'>
+            <div>
+              <h2>{item.title}</h2>
+              <h3>{item.type}</h3>
+              <p className='italic'>{item.description}</p>
+              <div className='porfolio-links'>
+                {item.link ? <a href={item.link} target='_blank' rel='noreferrer' className='site-link'>Visit site 👀</a> : null}
+                {item.gitHub ? <a href={item.gitHub} target='_blank' rel='noreferrer' className='site-link'>Checkout gitHub 🐱</a> : null}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
         <div className='tech-stack'>
          {item.techStack.map((tech, index) => {
             return (
