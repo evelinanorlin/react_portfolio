@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: $dark-bg;
+  color: #fffff2;
+  font-family: poppins, sans-serif;
+  font-weight: 100;
+  cursor:default;
+}
+
+h4, h3, h2, p{
+  font-weight: 100;
+}
+
+a{
+  text-decoration: underline;
+  color: $light-bg;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.thin{
+  font-weight: 200;
+}
+
+.bold{
+  font-weight: 400;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.normal{
+  font-style: normal;
+}
+
+.ingress{
+  font-size: 1.2rem;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width : 768px){
+  .container{
+    width: 80%;
+  }
+}
