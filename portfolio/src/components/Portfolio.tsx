@@ -11,7 +11,7 @@ export const Portfolio = () => {
             <div>
               <h2>{item.title}</h2>
               <h3>{item.type}</h3>
-              <p className='italic'>{item.description}</p>
+              {/* <p className='italic'>{item.description}</p> */}
               <div className='porfolio-links'>
                 {item.link ? <a href={item.link} target='_blank' rel='noreferrer' className='site-link'>Visit site 👀</a> : null}
                 {item.gitHub ? <a href={item.gitHub} target='_blank' rel='noreferrer' className='site-link'>Checkout gitHub 🐱</a> : null}

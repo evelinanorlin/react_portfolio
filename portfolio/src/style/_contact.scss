@@ -1,12 +1,13 @@
 .contact{
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 100px;
   height: 100vh;
   a{
     font-style: normal;
   }
   .contact-info{
     margin-left: 10px;
+
     width: 80%;
     .social-link{
       font-size: 2.5rem;
@@ -51,9 +52,28 @@
     img{
       height: 90vh;
       width: auto;
-      right:-50px;
+      right:-100px;
       bottom: 0;
       margin-bottom: 0;
+    }
+  }
+ }
+
+ @media screen and (min-width : 992px){
+  .contact{
+    height: 100vh;
+    .contact-info{
+      width: 600px;
+      left: 150px;
+      top: 400px;
+      h4, a{
+        font-size: 2rem;
+      }
+    }
+    img{
+      height: 150vh;
+      left: 500px;
+      top: 0;
     }
   }
  }

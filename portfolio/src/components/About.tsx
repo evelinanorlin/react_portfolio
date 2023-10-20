@@ -10,9 +10,9 @@ export default function About() {
         <div className='flex'>
           <div>
               <h4 className='italic ingress'>Hey there! 👋 
-              I'm an adventure enthusiast with a creative spirit, 
-              always excited about crafting amazing digital experiences. 
-              Well-structured code and eye-catching, user-friendly design are my jam!</h4>
+              I am Evelina Norlin, a dedicated adventure enthusiast with a passion for crafting 
+              captivating digital experiences.  You could say I'm the kind of person who thrives 
+              on the perfect blend of well-structured code and eye-catching, user-friendly design.  </h4>
               </div>
               <div className='image-block'>
                 <div className='gradient-square'></div>
@@ -20,26 +20,23 @@ export default function About() {
               </div>
             </div>
             <div className='about-text'>
-            <p>Currently, I'm on a journey to level up my skills as a front-end developer 
-              at Medieinstitutet. Alongside, I'm diving into graphic design and UX courses 
-              to finesse my design chops and create kick-ass user interfaces. 
-              I truly believe that a killer website can make a real difference.</p>
+            <p>Currently, I'm on an exciting journey to level up my skills as a front-end developer at Medieinstitutet. 
+              I'm not stopping there though – I'm also diving headfirst into graphic design and UX courses to 
+              finesse my design chops and learn how to craft seriously kick-ass user interfaces. 
+              Because I genuinely believe that a killer website can make a world of difference.</p>
 
-            <p>Besides my digital adventures, I also run a gig in the yoga and 
-              health space. And now, I'm super stoked to blend my passion for 
-              creativity with web development and design, helping businesses rock 
-              their online presence. I love dreaming up cool ideas and turning 
-              them into a digital reality.</p>
+            <p>But my digital adventures are just one part of the story. 
+              You see, I also have a gig in the yoga and health space. And here's the fun part: 
+              I'm thrilled to merge my passion for creativity with web development and design, helping businesses 
+              rock their online presence. I'm all about dreaming up cool ideas and turning them into a digital reality.</p>
 
             <p>When I'm not glued to my computer, you'll find me seeking tranquility 
-              in a yoga studio, scaling climbing walls, or simply enjoying the beauty of 
-              the ocean.</p>
-            
-            <p className='italic'>If you're in search of a website that mirrors 
-            your essence and captivates your audience, <Link to='/contact' className='thin'>let's team up and bring that vision to life</Link>! 
-            Looking forward to creating something amazing together.</p>
+              in a yoga studio, scaling climbing walls, or or out on the open waters, sailing and basking in the beauty of the ocean.</p>
 
-            <p>Want the formal version? <a href={cv} className='thin' target='_blank'>Take a look at my CV</a></p>
+            <p className='italic'>So, if you're in search of a website that's not just pixels and code but a true reflection of your essence and a magnet for your audience, 
+            <Link to='/contact' className='thin'>let's team up and turn that vision into a digital masterpiece.</Link> I'm excited about the possibility of creating something amazing together.</p>
+
+            <p>Want the formal version? <a href={cv} className='thin' target='_blank'>Take a look at my CV 👀</a></p>
 
             </div>
         <div className='facts'>

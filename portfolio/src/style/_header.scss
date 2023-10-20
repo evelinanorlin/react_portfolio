@@ -1,17 +1,30 @@
 .header{
-  display: flex;
-  width: 90%;
-  justify-content: space-between;
-  align-items: center;
+  position: fixed;
+  width: 100%;
   margin: 0 auto;
-
-  .navigation{
+  background: $dark-bg;
+  z-index:5;
+  .flex{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1400px;
     display: flex;
-    flex-direction: row;
-    gap: 15px;
-      a{
-        text-decoration: none;
-        text-transform: uppercase;
-      }
+    justify-content: space-between;
+    align-items: center;
+    img{
+      height: 80px;
+      width: auto;
+      margin-top: 5px;
+    }
+  
+    .navigation{
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+        a{
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+    }
   }
 }
