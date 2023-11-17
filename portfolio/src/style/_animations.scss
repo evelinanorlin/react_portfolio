@@ -1,0 +1,36 @@
+$distance: 25px;
+
+.slide-from {
+
+    &-left {
+        transform: translate(-$distance, 0);
+    }
+
+    &-bottom {
+        transform: translate(0, $distance);
+    }
+
+    &-right {
+        transform: translate($distance, 0);
+    }
+
+    &-top {
+        transform: translate(0, -$distance);
+    }
+
+    &-left, &-bottom, &-top, &-right {
+        opacity: 0;
+
+        &.inview {
+            opacity: 1;
+            transform: translate(0,0);
+            transition: transform 0.55s cubic-bezier(0,.5,.51,1), opacity 0.9s ease-out;
+
+            @for $i from 1 through 15 {
+                &:nth-child(#{$i}) {
+                    transition-delay: ($i * 0.06s);
+                }
+            }
+        }
+    }
+}
